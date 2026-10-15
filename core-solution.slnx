@@ -1,1 +1,20 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/apps/" />
+  <Folder Name="/src/services/" />
+  <Folder Name="/src/services/AtlasService/">
+    <Project Path="src/services/AtlasService/Atlas.Api/Atlas.Api.csproj" />
+    <Project Path="src/services/AtlasService/Atlas.Core/Atlas.Core.csproj" />
+    <Project Path="src/services/AtlasService/Atlas.Infrastructure/Atlas.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/IdentityService/">
+    <Project Path="src/services/IdentityService/Identity.Api/Identity.Api.csproj" />
+    <Project Path="src/services/IdentityService/Identity.Core/Identity.Core.csproj" />
+    <Project Path="src/services/IdentityService/Identity.Infrastructure/Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/PandoraService/">
+    <Project Path="src/services/PandoraService/Pandora.Api/Pandora.Api.csproj" />
+    <Project Path="src/services/PandoraService/Pandora.Core/Pandora.Core.csproj" />
+    <Project Path="src/services/PandoraService/Pandora.Infrastructure/Pandora.Infrastructure.csproj" />
+  </Folder>
+</Solution>
